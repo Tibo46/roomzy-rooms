@@ -1,0 +1,23 @@
+{
+  "name": "roomz-gateway",
+  "version": "0.0.1",
+  "description": "The Roomz Apollo GraphQL Gateway Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tibo46/roomzy-rooms.git"
+  },
+  "author": "Henry Pye, Thibaud Lacan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tibo46/roomzy-rooms/issues"
+  },
+  "homepage": "https://github.com/Tibo46/roomzy-rooms#readme",
+  "dependencies": {
+    "@apollo/gateway": "^0.21.1",
+    "apollo-server": "^2.19.0"
+  }
+}
